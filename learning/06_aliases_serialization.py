@@ -240,7 +240,7 @@ print()
 
 print("只包含公司名和城市:")
 result = employee.model_dump(include={
-    'company': {'name', 'address': {'city'}}
+    'company': {'name': True, 'address': {'city'}}
 })
 print(result)
 print()

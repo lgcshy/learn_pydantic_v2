@@ -1,0 +1,1 @@
+uv sync --extra-index-url https://pypi.org/simple
