@@ -1,0 +1,4 @@
+
+app_name: "Singleton App"
+debug: true
+secret_key: "secret-123"

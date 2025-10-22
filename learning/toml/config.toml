@@ -1,0 +1,31 @@
+
+# 应用基本信息
+title = "My Awesome API"
+version = "2.0.0"
+description = "A powerful RESTful API"
+environment = "production"
+
+# 功能开关
+enable_cors = true
+enable_docs = false
+
+# API 配置
+api_keys = [
+    "key-1234567890",
+    "key-0987654321",
+    "key-abcdefghij"
+]
+rate_limit = 200
+
+# 服务器配置
+[server]
+host = "0.0.0.0"
+port = 9000
+workers = 8
+timeout = 60
+
+# 日志配置
+[logging]
+level = "WARNING"
+format = "[%(levelname)s] %(asctime)s - %(message)s"
+file = "production.log"
